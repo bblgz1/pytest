@@ -1,0 +1,16 @@
+# 数据和压缩包
+*.zip
+*.csv
+data/
+
+# 图片
+*.png
+*.jpg
+
+# VS Code 个人配置
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
