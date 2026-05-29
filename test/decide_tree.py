@@ -58,7 +58,7 @@ plot_tree(clf, feature_names=feature_names_cn, class_names=target_names_cn,
           filled=True, rounded=True, fontsize=10)
 plt.title("鸢尾花数据集决策树 (最大深度=3)", fontsize=14)
 plt.tight_layout()
-plt.savefig('iris_decision_tree_cn.png', dpi=150)
+plt.savefig('outputs/iris_decision_tree_cn.png', dpi=150)
 plt.show()
 
 # ------------------------------
@@ -74,7 +74,7 @@ plt.title('决策树特征重要性')
 for i, v in enumerate(importance):
     plt.text(v + 0.01, i, f'{v:.3f}', va='center')
 plt.tight_layout()
-plt.savefig('iris_feature_importance_cn.png', dpi=150)
+plt.savefig('outputs/iris_feature_importance_cn.png', dpi=150)
 plt.show()
 
 # ------------------------------
@@ -87,5 +87,5 @@ plt.xlabel('预测标签')
 plt.ylabel('真实标签')
 plt.title('混淆矩阵')
 plt.tight_layout()
-plt.savefig('iris_confusion_matrix_cn.png', dpi=150)
+plt.savefig('outputs/iris_confusion_matrix_cn.png', dpi=150)
 plt.show()

@@ -80,5 +80,5 @@ plt.title(f'Test Set Predictions vs True Values\nMSE = {test_loss:.4f}')
 plt.legend()
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
-plt.savefig('linear_regression_results.png', dpi=150)  # 保存图像
+plt.savefig('outputs/linear_regression_results.png', dpi=150)  # 保存图像
 plt.show()

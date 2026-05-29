@@ -511,7 +511,7 @@ plt.title('Accuracy Comparison')
 
 # 保存图像
 plt.tight_layout()
-plt.savefig('training_process.png')
-print("训练过程图像已保存为 'training_process.png'")
+plt.savefig('outputs/training_process.png')
+print("训练过程图像已保存为 'outputs/training_process.png'")
 
 
